@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="InvisibleManiac" package="com.sample.invisiblemaniac" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="InvisibleManiac" />
+	
+	<window background="#000000" fps="30" />
+	<window width="800" height="480" unless="mobile" />
+	<window orientation="landscape" vsync="false" antialiasing="0" if="cpp" />
+	
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+	
+	<assets path="Assets" rename="assets" />
+	
+</project>
